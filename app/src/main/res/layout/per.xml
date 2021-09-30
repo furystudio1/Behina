@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl6"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/tnp"
+        android:text="خوش امدید"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="40dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:background="@drawable/thrid_bg2"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/rl5"
+        android:background="@drawable/card2"
+        android:layout_marginLeft="50dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="اطلاعات مشتری"
+            android:textSize="30sp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:id="@+id/tx5"/>
+
+        <ss.anoop.awesometextinputlayout.AwesomeTextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:borderColor="#FF03DAC5"
+            app:borderWidth="2dp"
+            app:cornerRadius="8dp"
+            android:layout_below="@id/tx5"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="80dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/et4"
+            android:padding="16dp">
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="نام مشتری"
+                android:textColor="@color/black"
+                android:textColorHint="@color/alert1"
+                android:id="@+id/et44"/>
+
+        </ss.anoop.awesometextinputlayout.AwesomeTextInputLayout>
+
+        <ss.anoop.awesometextinputlayout.AwesomeTextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:borderColor="#FF03DAC5"
+            app:borderWidth="2dp"
+            app:cornerRadius="8dp"
+            android:layout_below="@id/et4"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="10dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/et5"
+            android:padding="16dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="شماره تماس مشتری"
+                android:textColor="@color/black"
+                android:inputType="phone"
+                android:digits="0123456789+"
+                android:textColorHint="@color/alert1"
+                android:id="@+id/et55"/>
+
+        </ss.anoop.awesometextinputlayout.AwesomeTextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/ll6"
+            android:layout_below="@id/et5"
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="آقا"
+                android:textSize="15sp"
+                android:layout_centerInParent="true"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/et2"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/original_state4"
+                android:id="@+id/male"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="خانم"
+                android:textSize="15sp"
+                android:layout_centerInParent="true"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:layout_marginTop="12dp"
+                android:layout_below="@id/et2"
+                android:background="@drawable/original_state4"
+                android:id="@+id/female"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/ll7"
+            android:layout_below="@id/ll6"
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="ثبت"
+                android:textSize="15sp"
+                android:layout_centerInParent="true"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_marginTop="12dp"
+                android:layout_below="@id/et2"
+                android:background="@drawable/original_state"
+                android:id="@+id/btn3"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        drawable="@drawable/account2"
+        text="مشتری" />
+
+    <tab
+        drawable="@drawable/details"
+        text="پرسنل" />
+
+    <tab
+        drawable="@drawable/cart"
+        text="بازارها" />
+
+    <tab
+        drawable="@drawable/message"
+        text="پیامک" />
+</tabs>

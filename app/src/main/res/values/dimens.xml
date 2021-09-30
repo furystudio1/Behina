@@ -1,0 +1,37 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="statusBarHeight">0dp</dimen>
+    <dimen name="navigationBarHeight">0dp</dimen>
+    <dimen name="material_food_mp_1">120dp</dimen>
+    <dimen name="material_food_mp_2">40dp</dimen>
+    <dimen name="material_food_mp_3">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="sport_start_rl_1">180dp</dimen>
+    <dimen name="sport_start_text">15sp</dimen>
+    <dimen name="sport_start_btn_start">80dp</dimen>
+    <dimen name="sport_start_backgrand_txt">45dp</dimen>
+    <dimen name="sport_start_martop_txt">5dp</dimen>
+    <dimen name="sport_start_txt_size">14sp</dimen>
+    <dimen name="sport_end_txt">20sp</dimen>
+    <dimen name="sport_end_mtop_txt">8sp</dimen>
+    <dimen name="sport_end_rl_1">50sp</dimen>
+    <dimen name="meal_imag_top">150sp</dimen>
+    <dimen name="circle">150dp</dimen>
+    <dimen name="image_meal_h">180dp</dimen>
+    <dimen name="lemniscate_stroke_width">10dp</dimen>
+    <dimen name="lemniscate_preferred_width">80dp</dimen>
+    <dimen name="lemniscate_preferred_height">80dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="activity_half_margin">8dp</dimen>
+    <dimen name="indicator_size">8dp</dimen>
+    <dimen name="section_image_item">128dp</dimen>
+    <dimen name="mtf_cardHeight_initial">4dp</dimen>
+    <dimen name="mtf_cardHeight_final">55dp</dimen>
+    <dimen name="mtf_corner_radius">4dp</dimen>
+    <dimen name="alert_width">290dp</dimen>
+    <dimen name="common_circle_width">3dp</dimen>
+    <dimen name="progress_circle_radius">34dp</dimen>
+
+</resources>

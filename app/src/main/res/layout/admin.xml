@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl7"
+    android:paddingTop="20dp"
+    android:paddingBottom="40dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <github.com.st235.lib_expandablebottombar.ExpandableBottomBar
+        android:id="@+id/expandable_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:exb_backgroundCornerRadius="25dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        app:exb_backgroundColor="#2e2e2e"
+        app:exb_itemInactiveColor="#fff"
+        app:exb_items="@menu/menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_alignParentBottom="true"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/expandable_bottom_bar">
+
+        <ir.androidexception.datatable.DataTable
+            android:id="@+id/data_table"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:layout_height="match_parent"
+            app:header_gravity="center"
+            app:row_gravity="center"
+            app:header_vertical_padding="16dp"
+            app:header_horizontal_padding="0dp"
+            app:divider_thickness="1dp"
+            app:cardPreventCornerOverlap="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            app:direction="ltr"
+            app:row_vertical_padding="16dp"
+            app:header_text_size="16sp"
+            app:row_text_size="14sp"
+            app:row_text_color="#000"
+            app:header_text_color="#fff"
+            app:row_background_color="#fff"
+            app:header_background_color="#2e2e2e"
+            app:persian_number="true"
+            app:corner_radius="20dp"
+            app:shadow="10dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@id/expandable_bottom_bar"
+        android:layout_alignParentRight="true"
+        android:id="@+id/plus1"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/implus"
+            android:src="@drawable/fifth_bg2"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/plus"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@id/expandable_bottom_bar"
+        android:id="@+id/plus2"
+        android:layout_toLeftOf="@id/plus1"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="40dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/implus2"
+            android:src="@drawable/fifth_bg2"/>
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/filelink"/>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
